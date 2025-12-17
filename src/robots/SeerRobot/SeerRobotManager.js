@@ -1,5 +1,5 @@
 const EventEmitter = require('events');
-const SeerRobot = require("./SeerRobot.js");
+const SeerRobot = require("./SeerRobot");
 
 class SeerRobotManager extends EventEmitter{
     constructor(nick_name) {
