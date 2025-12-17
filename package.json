@@ -1,6 +1,6 @@
 {
   "name": "robokit-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AMR机器人工具包，基于 Node.js 提供连接、控制和管理功能。",
   "license": "ISC",
   "author": "今晚不熬夜",
@@ -34,4 +34,3 @@
     "nanoid": "^5.1.6"
   }
 }
-
