@@ -1,6 +1,6 @@
 {
   "name": "robokit-nodejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AMR机器人工具包，基于 Node.js 提供连接、控制和管理功能。",
   "license": "ISC",
   "author": "今晚不熬夜",
@@ -8,6 +8,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "build": "bytenode --compile src/robots/SeerRobot/SeerRobot.js && bytenode --compile src/robots/SeerRobot/SeerRobotManager.js",
     "test:seer": "node ./test/SeerRobot.test.js"
   },
   "exports": {
