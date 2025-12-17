@@ -1,0 +1,37 @@
+{
+  "name": "robokit-nodejs",
+  "version": "1.0.0",
+  "description": "AMR机器人工具包，基于 Node.js 提供连接、控制和管理功能。",
+  "license": "ISC",
+  "author": "今晚不熬夜",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test:seer": "node ./test/SeerRobot.test.js"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    },
+    "./SeerRobotAPI": {
+      "require": "./src/robots/SeerRobot/SeerRobotAPI.js"
+    }
+  },
+  "keywords": [
+    "robot",
+    "amr",
+    "warehouse",
+    "sdk",
+    "nodejs",
+    "automation",
+    "robotics",
+    "logistics",
+    "seer",
+    "agv"
+  ],
+  "dependencies": {
+    "bytenode": "^1.5.7",
+    "nanoid": "^5.1.6"
+  }
+}
+
